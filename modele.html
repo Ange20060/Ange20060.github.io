@@ -9,13 +9,11 @@
     <link rel="stylesheet" href="asset/style.css">
 </head>
 <body class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-500">
-    <header class="flex justify-between items-center p-6 shadows-md bg-white/70 dark:bg-gray-800/70 backdrop-blur-md fixed top-0 left-0 w-full z-50">
-        <h1 class="tex-2xl font-bold tracking-wide">Luxe<span class="text-yellow-500">Auto</span></h1>
+    <header class="flex justify-between items-center p-6 shadow-md bg-white/70 dark:bg-gray-800/70 backdrop-blur-md fixed top-0 left-0 w-full z-50">
+        <h1 class="text-2xl font-bold tracking-wide">Luxe<span class="text-yellow-500">Auto</span></h1>
         <nav class="space-x-6">
             <a href="index.html" class="hover:text-yellow-500">Accueil</a>
-            <button id="themeToggle" class="ml-4 bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full text-sm">
-                🌙/☀️
-            </button>
+          
         </nav>
 
     </header>
@@ -24,15 +22,37 @@
         <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <!-- Modèle de voiture  -->
             <div class="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:scale-105  transition ">
-                <img src="assets/gle63.jpg" alt="Mercedes GLE 63 AMG" class="w-full h-56 object-cover">
+                <img src="asset/gle63.jpeg" alt="Mercedes GLE 63 AMG" class="w-full h-56 object-cover">
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2">Mercedes GLE 63 AMG</h3>
                     <p class="text-gray-500 dark:text-gray-300 mb-4">
                         Puissance Confort et luxe réunis dans la Mercedes GLE 63 AMG. Profitez d'une expérience de conduite inégalée avec son moteur V8 biturbo et son intérieur raffiné.
                     </p>
-                    <button onclick="orderWhatsApp('Mercedes GLE 63 AMG')" class="bg-yellow-600 text-black font-medium px-4 py-2 rounded-lg trznsition">Commander</button>
+                    <button onclick="orderWhatsApp('Mercedes GLE 63 AMG')" class="bg-yellow-600 text-black font-medium px-4 py-2 rounded-lg transition">Commander</button>
                 </div>
+            </div>
+            <!-- Modèle de voiture  -->
                    <!-- Dupliquer pour d'autre  -->
+            <div class="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition">
+                <img src="asset/bmw7.jpg" alt="BMW Série 7" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">BMW Série 7</h3>
+                    <p class="text-gray-500 dark:text-gray-300 mb-4">
+                        Découvrez le summum du luxe avec la BMW Série 7. Alliant technologie de pointe et confort exceptionnel, cette berline est conçue pour impressionner.
+                    </p>
+                    <button onclick="orderWhatsApp('BMW Série 7')" class="bg-yellow-600 text-black font-medium px-4 py-2 rounded-lg transition">Commander</button>
+                </div>
+            </div>
+            <!-- Modèle de voiture  -->
+            <div class="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:scale-105 transition">
+                <img src="asset/audiA8.jpg" alt="Audi A8" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Audi A8</h3>
+                    <p class="text-gray-500 dark:text-gray-300 mb-4">
+                        L'Audi A8 incarne l'élégance et la performance. Avec son design sophistiqué et ses technologies avancées, elle offre une expérience de conduite inoubliable.
+                    </p>
+                    <button onclick="orderWhatsApp('Audi A8')" class="bg-yellow-600 text-black font-medium px-4 py-2 rounded-lg transition">Commander</button>
+                </div>
         </div>
     </main>
         <script src="asset/script.js"></script>
